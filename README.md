@@ -36,7 +36,7 @@ disabilities).
 
 ## Run it on your own computer
 
-You'll need three things first:
+You'll need:
 
 1. **Node.js 18.18 or newer** — install from <https://nodejs.org> (the LTS
    download is fine). Verify by opening a terminal and running:
@@ -172,19 +172,6 @@ src/
     saved-lectures.ts         # localStorage hook for saved sessions
     utils.ts                  # cn() class merge helper
 ```
-
-## Build status
-
-- [x] Step 1 — Scaffold
-- [x] Step 2 — `RecordButton` + `MediaRecorder`
-- [x] Step 3 — `LoadingScreen` with rotating stage messages
-- [x] Step 4 — `/api/transcribe`
-- [x] Step 5 — `/api/generate` + Zod
-- [x] Step 6 — Notes view (with lecture overview + tap-to-read)
-- [x] Step 7 — Flashcards view
-- [x] Step 8 — Quiz view
-- [x] Saved Lectures tab (localStorage)
-- [ ] Step 9 — Remaining polish (dyslexia-font toggle UI, deeper retry flows)
 
 ## Known limits
 
